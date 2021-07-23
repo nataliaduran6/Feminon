@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,32 +16,57 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background " translatesAutoresizingMaskIntoConstraints="NO" id="ZM0-jk-gbY">
-                                <rect key="frame" x="-119" y="88" width="661" height="821"/>
+                                <rect key="frame" x="-112" y="0.0" width="661" height="821"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="feminon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ti-2l-Ax8">
-                                <rect key="frame" x="176" y="165" width="62" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feminon" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ti-2l-Ax8">
+                                <rect key="frame" x="112" y="35" width="268" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Rockwell-BoldItalic" family="Rockwell" pointSize="50"/>
+                                <color key="textColor" red="0.95686274509803915" green="0.94509803921568625" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-19 at 10.19.11 AM" translatesAutoresizingMaskIntoConstraints="NO" id="dgS-Os-O8a">
-                                <rect key="frame" x="7" y="264" width="260" height="145"/>
+                                <rect key="frame" x="-17" y="160" width="290" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VIr-Iq-Jxp">
-                                <rect key="frame" x="211" y="662" width="88" height="39"/>
+                                <rect key="frame" x="61" y="340" width="134" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="18"/>
                                 <state key="normal" title="Take a Quiz !"/>
                                 <connections>
                                     <segue destination="fnq-I4-rrV" kind="show" id="J2p-hJ-gWZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4C-S4-kcm">
-                                <rect key="frame" x="143" y="662" width="35" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTR-dz-aMY">
+                                <rect key="frame" x="207" y="587" width="115" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="learn"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="18"/>
+                                <state key="normal" title="Take action "/>
+                                <connections>
+                                    <action selector="actionBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pll-vA-qeT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IY7-bk-cgX">
+                                <rect key="frame" x="95" y="496" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="TO ENSURE EQUALITY BETWEEN GENDERS " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HCQ-DZ-5ym">
+                                <rect key="frame" x="112" y="439" width="210" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.5490196078431373" green="0.32156862745098036" blue="1" alpha="0.58999999999999997" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4C-S4-kcm">
+                                <rect key="frame" x="95" y="576" width="122" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="18"/>
+                                <state key="normal" title="Learn"/>
                                 <connections>
                                     <segue destination="g3V-v7-obK" kind="show" id="qu0-T4-1sa"/>
                                 </connections>
@@ -106,7 +130,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="EzZ-mF-dyR"/>
-                        <color key="backgroundColor" red="1" green="1" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.91764705882352937" green="0.85882352941176465" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="8Hs-hV-VVA"/>
                 </viewController>
@@ -182,7 +206,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="muH-fe-7jd"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.85882352939999995" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="dCZ-wo-4xG"/>
                     <connections>
@@ -262,7 +286,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7IH-im-5dA"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.85882352939999995" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="2ZI-a8-uVk"/>
                     <connections>
@@ -332,7 +356,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mIK-ay-BYl"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.85882352939999995" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="DWk-9T-Fm8"/>
                     <connections>
@@ -355,7 +379,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="322" translatesAutoresizingMaskIntoConstraints="NO" id="vu3-8N-Rct">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="890.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2209"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STEM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMK-EQ-zxD">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
@@ -364,8 +388,32 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNZ-vF-BcE">
-                                                <rect key="frame" x="0.0" y="342.5" width="414" height="548"/>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Label snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbj Label snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjvvLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjvvvLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnck</string>
+                                                <rect key="frame" x="0.0" y="342.5" width="414" height="1866.5"/>
+                                                <mutableString key="text">                       Who was Katherine Johnson ? 
+
+- Starting from a young age , Katherine  loved to count and basically anything dealing with numbers . For example , at times she would even count the number of steps it took it to get to her church . She also loved to learn new things ( especially math related items ) which led her to start high school at the early age of 10 . By age 15 , she had already started college , and spent her time taking classes to prepare her to be a mathematician . She learned to solve very big problems through the beautiful field of math , quickly falling in love with it . She graduated with the best and highest honors in 1937 and accepted a position educating at a black public school in Virginia.
+
+
+- Being handpicked to be one of three black  pupils to coordinate West Virginia's graduate level colleges is something that numerous individuals would think about one of their life's most prominent minutes, however it's only one of a few numerous breakthroughs that make up Katherine Johnson's long and remarkable life.
+
+
+- On 1952 , Kathrine became informed about an available position at the all-black West Area Computing segment at the National Advisory Committee for Aeronautics' (NACA's which was NASA’s old name ) Langley research center. Katherine and her better half chose to move the family to Newport News, Virginia, to seek after the chance. Only fourteen days into her residency in the workplace, her leader made her do a task in the Maneuver Loads Branch of the Flight Research Division, and Katherine's impermanent position before long became permanent . She went through the following four years analyzing data from flight tests and worked on the investigation of a plane crash caused by wake turbulence.
+
+
+- In 1962, the United States chose to send individuals to the Moon. That was very big and important news. Getting to and from the Moon would take a great deal of work. As the U.S. space office, NASA would need to solve numerous issues. So NASA made huge groups to settle them. 
+
+
+- Katherine studied how to utilize geometry for space travel.She sorted out the ways for the shuttle to circle  Earth and to arrive on the Moon. NASA utilized Katherine's math and work, and it functioned as needed! NASA sent space travelers into space around Earth. Afterward, her math sent space explorers to the Moon and back. She helped put a man on the Moon. NASA couldn't have done these things without Katherine Johnson and her love for math! 
+ 
+- By 1986 , she retired from NASA after working there for 30 years. 
+
+
+        Why are women underrepresented in STEM ? 
+
+- Growing up , boys and girls are put into very fixed binary roles and are only encouraged to gravitate towards subjects that are “fitting” or “acceptable” for their gender . Boys are taught to take risks , be competitive , play with cars , and be a part of the STEM field . Girls are taught to be perfect , sit pretty ,  play with dolls , and be stay at home moms , or join a humanities field . As a result , no one pushes our girls to pursue careers in STEM , rather they are constantly being told that they aren’t fit for their field . 
+
+- A lot of girls steer away from stem classes , not because they aren’t capable of doing it , but because it is intimidating being in a group full of men in which you constantly have to prove yourself smart enough. For example , if a girl runs into an issue , men would be like “ oh it’s because you’re a girl ,and you’re not smart enough for this  field,” but  if a guy does the same thing , no one would question his abilities or smartness , so that itself is super discouraging . Additionally, not only do women have the pressure of doing good in the class itself , but they also have the constant fear of falling into the false stereotype that “STEM isn’t for women.” 
+</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -385,7 +433,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xlF-yS-rs8"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.85882352939999995" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="ePc-zJ-5St" firstAttribute="top" secondItem="xlF-yS-rs8" secondAttribute="top" id="IfM-EQ-KcG"/>
                             <constraint firstItem="ePc-zJ-5St" firstAttribute="leading" secondItem="xlF-yS-rs8" secondAttribute="leading" id="iLR-Cm-dAQ"/>
@@ -411,7 +459,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="327" translatesAutoresizingMaskIntoConstraints="NO" id="jKR-gj-Vcv">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="895.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Education" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zww-T7-Rqn">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
@@ -420,8 +468,12 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJb-qS-ese">
-                                                <rect key="frame" x="0.0" y="347.5" width="414" height="548"/>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Label snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbj Label snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjvvLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjvvvLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnck</string>
+                                                <rect key="frame" x="0.0" y="347.5" width="414" height="852.5"/>
+                                                <mutableString key="text">Abigail Adams, former first lady of the United States, lived from 1744 to 1818. Adams was an advocate for women’s education. As a child she enjoyed reading and studied Shakespeare, but did not receive proper education because it was uncommon for women at the time. Even with her lack of formal education she self educated herself with books from her family library. Abigail was an early supporter of women’s rights, famously quoted saying “Do not put such unlimited power into the hands of the husbands. Remember all men would be tyrants if they could.” She believed women’s education was a vital part of our democracy and allied with Judith Sargent Murray to expand women’s education. Although she did believe this for the benefit of sons as opposed to women’s benefit, it did help the women’s movement for education. In 1778 she wrote to her husband, John Adams, “you need not be told how much female education is neglected, nor how fashionable it has been to ridicule female learning.”
+
+
+Abigail Adams is only one part of the women’s fight for education. Other activists, such as Margaret Fuller, pushed boundaries and defied limitations. She was the first woman to be accepted into Harvard University, she was a journalist and a teacher, and she led many discussions for women. Fuller held seminars in Boston from 1839 to 1844 regarding women and higher education. The push for women in higher education is also an important part of the feminist movement. By 1880 one third of students in higher education were women. The increase of women in higher education helped solve an issue of labor shortages for teachers, at a time where public schools were increasing across the country. Outside of knowledge women also benefited by access to higher education by having access to safer jobs, such as teaching. It also lengthened the period between girlhood and marriage, ultamaily affecting social norms regarding marriage to this day. 
+</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -441,7 +493,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8ld-gP-o5E"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.85882352939999995" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Nin-0r-rl0" firstAttribute="leading" secondItem="8ld-gP-o5E" secondAttribute="leading" id="ADg-uv-tgp"/>
                             <constraint firstItem="Nin-0r-rl0" firstAttribute="trailing" secondItem="8ld-gP-o5E" secondAttribute="trailing" id="DJU-D1-ybl"/>
@@ -467,7 +519,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="326" translatesAutoresizingMaskIntoConstraints="NO" id="tlf-Ld-alj">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="894.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1178.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Arts" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cuw-2O-0qF">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
@@ -476,8 +528,22 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKK-Ea-d2e">
-                                                <rect key="frame" x="0.0" y="346.5" width="414" height="548"/>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Label snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbj Label snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjvvLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjvvvLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnck</string>
+                                                <rect key="frame" x="0.0" y="346.5" width="414" height="832"/>
+                                                <mutableString key="text">                                 Frida Kahlo:
+
+Frida Kahlo, in full Frida Kahlo de Rivera, (born July 6, 1907, Coyoacán, Mexico—died July 13, 1954, Coyoacán), was a  Mexican painter best known for her uncompromising and brilliantly coloured self-portraits that deal with such themes as identity, the human body, and death.
+
+
+
+Despite the harsh gender equality of the 1900s, Kahlo was honest about being a woman. That is what put her at the forefront of being recognized as a feminist. Never once did she hide, cower or expect to be shielded from the harsh realities of her life. Through her art she refused to alter her features. These included her mono-brow and faint moustache, which were labelled as inappropriately “masculine”. She would exaggerate them more in her self-portraits. Kahlo was never afraid to be herself – an imperfect but brave woman. Her paintings touched on female issues such as abortion, miscarriage, birth, breastfeeding and much more. These were things considered to be strictly taboo and never spoken of at all in public during her time. Kahlo was also open about her sexuality. She was never ashamed to admit that she was a bisexual, nor did she ever feel the need to apologise for her choices. 
+
+
+To this day, over half a century, Frida Kahlo’s artwork is admired for her bold choices and truth to herself. She is one of the most famous female artists that not only represent her hispanic background, but also femininity for its true imperfect self.
+
+
+
+
+</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -497,7 +563,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6wn-Vi-0C0"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.85882352939999995" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="vKO-rd-rJj" secondAttribute="bottom" id="0fB-Vf-1Ay"/>
                             <constraint firstItem="vKO-rd-rJj" firstAttribute="top" secondItem="6wn-Vi-0C0" secondAttribute="top" id="TNA-BS-YUg"/>
@@ -523,17 +589,39 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="327" translatesAutoresizingMaskIntoConstraints="NO" id="CJ8-Mi-ZFQ">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="895.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1463.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Politics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqP-81-wBZ">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Law" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqP-81-wBZ">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xss-Ek-bYf">
-                                                <rect key="frame" x="0.0" y="347.5" width="414" height="548"/>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Label snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbj Label snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjvvLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjvvvLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnck</string>
+                                                <rect key="frame" x="0.0" y="347.5" width="414" height="1116"/>
+                                                <mutableString key="text">                    Who is Ruth Bader Ginsburg  ? 
+
+- After graduating from Cornell University in 1954 with the best grades and distinctions in government, Ginsburg went to Harvard Law School and Columbia Law School where she graduated at the head of her class. Regardless of these astounding scholarly certifications, Ginsburg experienced issues getting a new line of work in the male-dominated field .
+
+- She began her career by serving a clerkship in the U.SA District Court of Appeals in New York, later taught at Rutgers University School of Law, and then at Columbia Law School, where she became the school’s first tenured female professor.
+
+- She served as the director of the Women’s Rights Project of the American Civil Liberties Union during the 1970s, and was appointed to the U.S. Court of Appeals for the District of Columbia in 1980. 
+
+- Ginsburg was then named to the U.S. Supreme Court in 1993 by President Bill Clinton, where she became  the second female justice on the U.S. Supreme Court and continued to argue for gender equality.
+
+
+                    Accomplishments &amp; Legacy : 
+
+- Ruth Bader Ginsburg led a career advocating for women’s rights and gender equality, changing the way law sees gender. 
+
+- As director of the ACLU’s Women’s Rights Project, she argued six landmark cases on gender equality before the Supreme Court, winning five, persuading the bench that gender discrimination was a violation of the constitution’s equal protection clause.
+
+- The Women's Rights Project counted 100s of government laws that separated based on sex in schooling, employment , regenerative rights contracts, credit cards,  home rentals, jail, and the military.
+
+- As a moderate-liberal Supreme Court justice , Ginsburg was a solid voice for sex equity, the rights of laborers, and the partition of chruch and state.
+
+- She wrote the majority opinions in many important cases, including the 1996 ruling that the male-only admissions policy of the state-funded Virginia Military Institute was unconstitutional.
+</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -553,7 +641,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qXw-73-adM"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.85882352939999995" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="2XJ-q3-Hyu" secondAttribute="bottom" id="9kp-zj-fCk"/>
                             <constraint firstItem="2XJ-q3-Hyu" firstAttribute="top" secondItem="qXw-73-adM" secondAttribute="top" id="LwU-em-GYP"/>
@@ -616,7 +704,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="t27-3g-aNz"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.85882352939999995" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Gvq-Q9-rEJ"/>
                 </viewController>
@@ -636,7 +724,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="315" translatesAutoresizingMaskIntoConstraints="NO" id="BOY-93-fPj">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="883.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1127"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What even is feminism" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I9y-zf-9T4">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
@@ -645,8 +733,35 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4Q-hM-9bp">
-                                                <rect key="frame" x="0.0" y="335.5" width="414" height="548"/>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Label snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbj Label snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjvvLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjvvvLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnck</string>
+                                                <rect key="frame" x="0.0" y="335.5" width="414" height="791.5"/>
+                                                <mutableString key="text">- Feminism is for equal rights and opportunity for men and women.
+
+- Women's experiences, identities, expertise, and talents are respected, while all women are given the resources and encouragement to realize their full rights.
+
+
+- To provide a level playing field for all genders, and to give every female and female-identifying person equal access to opportunities accessible to males and males.
+
+
+- 4 types of feminism: liberal feminism, socialist feminism, Marxist feminism, and radical feminism
+
+
+- Feminism  formally began at the Seneca Falls Convention in 1848 when three hundred men and women rallied to the cause of equality for women. 
+
+
+                              What feminism isn’t: 
+
+1. The Belief That Women Are Superior
+
+2. That Someone Has Negative Views Of Men
+
+3. That Feminine Things Are "Bad"
+
+4. The Belief That Everyone Should Be The Same
+
+6. That We're Just Reinforcing Gender
+
+7. That It's Just Another Word For "Complaining All The Time"
+</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -666,7 +781,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7gB-tb-hZO"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.85882352939999995" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Pvu-tC-wyH" firstAttribute="trailing" secondItem="7gB-tb-hZO" secondAttribute="trailing" id="64k-U0-A2w"/>
                             <constraint firstItem="Pvu-tC-wyH" firstAttribute="leading" secondItem="7gB-tb-hZO" secondAttribute="leading" id="GSX-HP-q7C"/>
@@ -696,7 +811,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="307" translatesAutoresizingMaskIntoConstraints="NO" id="AqQ-Af-L6h">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="875.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1524.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feminism through the years" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CE6-UO-Avx">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
@@ -705,8 +820,19 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHx-MB-der">
-                                                <rect key="frame" x="0.0" y="327.5" width="414" height="548"/>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Label snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbj Label snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjvvLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjvvvLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnck</string>
+                                                <rect key="frame" x="0.0" y="327.5" width="414" height="1197"/>
+                                                <mutableString key="text">- Some of the earliest forms of feminism were in Ancient Greece and Ancient Rome. In Ancient Greece Plato advocated that women possess “natural capacities” equal to men for governing and defending ancient Greece. Women of ancient Rome staged a protest over the Oppian Law, a law that restricted women’s access to gold and other goods, and had the law repealed. 
+
+
+- Much later In the 15th century, Christine de Pizan, author of The Book of the City of Ladies, protested misogyny and the role of women in the Middle Ages. During the Enlightenment, Margaret Cavendish, the Duchess of Newcastle-upon-Tyne, and Mary Wollstonecraft, argued for equality for women. Abigail Adams saw access to education, property and the ballot as critical to women’s equality. 
+
+
+- Eventually we see the first, second, and third waves of feminism, more collective movements of feminism that embody larger groups of issues involving women. First wave feminism began at the Seneca Falls convention in 1848, beginning the fight for equal voting rights. Women’s suffrage was extremely controversial when first introduced but the suffrage movement became the face of feminism for decades. From 1893 we began to see sovereign nations give women the right to vote, starting in New Zealand. In the US women “proved” through their work in WWI, that they deserved equal representation (although we know that the right to vote does not need to be “earned”). After equal voting rights were achieved many feminist continued to fight for equality, working on what we now call second wave feminism. 
+
+
+- The second wave of feminism began when women sought more participation in the workforce and equal pay. “The Equal Pay Act of 1963 was among the first efforts to confront this still-relevant issue.” (History.com). Betty Friedan pioneered the idea that women were still pushed into roles like child care and homemaking. Gloria Steinem and Bella Abzug joined Friedan, forming the National Women's Political Caucus. They also fought for the Equal Rights amendment, the ERA was passed in congress but not ratified by enough states to become law. Roe v. Wade was decided during that time period and was a big win for feminists. Third wave feminism (NOW !!) expands the fight for equality to women of color, lgbtq+ women, immigrants, and religious minorities. This current wave of feminism contines to fight for issues such as rape culture and workpalce misogyny. The #MeToo movement is included in the current wave of feminism.
+
+</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -726,7 +852,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bnp-Ws-UdW"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.85882352939999995" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="bci-DP-4MK" firstAttribute="top" secondItem="Bnp-Ws-UdW" secondAttribute="top" id="3Js-5Z-5ZM"/>
                             <constraint firstItem="bci-DP-4MK" firstAttribute="trailing" secondItem="Bnp-Ws-UdW" secondAttribute="trailing" id="S4O-fY-dfT"/>
@@ -789,7 +915,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0i5-sd-3oG"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.85882352939999995" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="kud-LD-z2L"/>
                 </viewController>
@@ -839,7 +965,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eFv-zk-mnm"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.85882352939999995" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="8LR-rN-l02" firstAttribute="top" secondItem="eFv-zk-mnm" secondAttribute="top" id="7vT-3X-rmT"/>
                             <constraint firstAttribute="bottom" secondItem="8LR-rN-l02" secondAttribute="bottom" id="Lc4-sN-u2H"/>
@@ -865,7 +991,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="326" translatesAutoresizingMaskIntoConstraints="NO" id="YwC-oZ-iSp">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="894.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1604.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Columbia" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R5K-28-fDT">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
@@ -874,8 +1000,14 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mDb-ls-MOH">
-                                                <rect key="frame" x="0.0" y="346.5" width="414" height="548"/>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Label snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbj Label snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjvvLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjvvvLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnck</string>
+                                                <rect key="frame" x="0.0" y="346.5" width="414" height="1258"/>
+                                                <mutableString key="text">- Colombia has now made important strides in gender equality over the past two decades. It rose to a ranking of 22nd out of 153 countries in the World Economic Forum’s 2020 Global Gender Gap Index. In particular, Colombia has adopted a robust normative system that protects women’s rights, and legislation requiring that women candidates comprise at least 30% of party electoral lists, for higher representation of women in public institutions. In March 2013, the Colombian government approved a National Policy on Gender Equality (CONPES 161) that aims to co-ordinate efforts across the whole-of-government to guarantee women’s equality and non-discrimination. In 2010, Colombia became the first country formally to acknowledge the economic contribution of unpaid care work with the passage of a law (Law 1413 of 2010) mandating time-use surveys to account for the care economy and women’s invisible contribution to national accounts (OECD, 2017[3]). The National Development Plan 2018-22 includes an entire chapter on women’s rights based on three dimensions: the economic, the political and the dimension regarding physical integrity, which includes violence against women. 
+
+- Movements: The start of the movement of Estamos Listas, or “We’re Ready” in English, began with a group of five women who were fed up with being treated as second-class citizens in the city’s political hierarchy. Around 60 women first gathered in what has become Estamos Listas’ headquarters in an old Spanish-style home, cheerfully painted yellow and draped in pink and purple banners, in the center of downtown Medellín. They decided to recruit in an unconventional way and created circles of trust where each woman took responsibility for recruiting five other women to join the cause. The new women then brought in five more women, and thus, the movement grew. It became the first women’s political movement to run for city council in Medellín. Estamos Listas began as a social movement in 2016, after Colombia voted against a proposed peace referendum to end half a century of civil war. Decades of bloody violence in Colombia have forced women and girls to endure systematic murder, displacement, harassment, and rape. The burden of the conflict has fallen heavily on women: according to U.N. data, Colombia has the 10th highest femicide rate in the world. Estamos Listas’ platform aims to change this by addressing issues of violence, femicide, poverty, and other hardships facing women in Colombia.
+
+
+- Despite these achievements, Colombia still faces challenges on the path to gender equality and the social and economic empowerment of women and girls. Advances are needed in the effective implementation, enforcement and evaluation of relevant gender equality policies, laws and government programmes, particularly at the local level. 
+</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -895,7 +1027,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NCQ-3U-wii"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.85882352939999995" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="hF9-NK-bWT" firstAttribute="trailing" secondItem="NCQ-3U-wii" secondAttribute="trailing" id="8C7-9l-xpa"/>
                             <constraint firstItem="hF9-NK-bWT" firstAttribute="leading" secondItem="NCQ-3U-wii" secondAttribute="leading" id="X5A-ea-qOr"/>
@@ -951,7 +1083,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ISx-Zd-r6D"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.85882352939999995" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="np2-ld-7o8" secondAttribute="bottom" id="Zqu-HU-c28"/>
                             <constraint firstItem="np2-ld-7o8" firstAttribute="leading" secondItem="ISx-Zd-r6D" secondAttribute="leading" id="aaD-Ps-0cq"/>
@@ -977,7 +1109,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="322" translatesAutoresizingMaskIntoConstraints="NO" id="0or-V4-RXA">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="890.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2858.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="India" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRe-22-bIT">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
@@ -986,8 +1118,54 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7GG-kP-xqO">
-                                                <rect key="frame" x="0.0" y="342.5" width="414" height="548"/>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Label snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbj Label snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjvvLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjvvvLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnck</string>
+                                                <rect key="frame" x="0.0" y="342.5" width="414" height="2516"/>
+                                                <mutableString key="text">- A significant segment of Indian women advocate for greater female rights. In the context of India, it is the pursuit of women's rights. The right to labor for equal pay, the right to equal access to health and education, and equal political rights are just some of the things feminists in India strive for. Additionally, Indian feminists have worked to combat cultural-specific problems such as outdated inheritance rules within India's patriarchal society.
+
+
+- The history of feminism in India can be separated into three distinct phases: the first of which, which occurred in the mid-19th century, began when reformists began speaking in favor of women's rights by implementing reforms in education, customs involving women, and lastly, following Indian independence, which focused on issues that affect women following marriage, in the workplace, and equal political representation.
+
+
+
+- Even though women's rights in contemporary India have progressed, women in the country still suffer many discriminatory problems. Although the patriarchal nature of Indian society has complicated land-ownership rights and access to education, on the whole, India is moving in the right direction. Prior to the mid-twentieth century, a new practice of sex-selective abortion has also developed. Indian feminists view these injustices as worth fighting against, and they also see feminism as a misleading term since for Indians, women's dominance is what feminism represents instead of equality.
+
+
+- While there have been some critics of the feminist movements in India, this is a common critique seen in the West. They have received particular criticism for their greater emphasis on white, upper-class women, while ignoring the interests and representation of other women who are less privileged or of a lower caste. Caste-specific feminist groups and movements have been created as a result.
+
+
+                                    Indian Feminists : 
+
+- Raja Ram Mohan Roy : he opposed sati, polygamy, and child marriage. Stood out for the importance of women's educational and property inheritance rights.
+
+- After earning a Ph.D., Jyotirao Phule collaborated with his wife, Savitribai Phule, and a friend, Sadashiv Ballal Govande, to establish a center for the prevention of infanticide, which helped widows who were in labor deliver their babies.
+
+- The pioneer of education for females in India was Savitribai Phule (1831–1897).
+
+- Indian feminist Tarabai Shinde (1850–1910) is remembered as the author of Stri Purush Tulana, the earliest book that comes close to becoming contemporary Indian feminism.
+
+- An advocate for the liberation of women in British India, Pandita Ramabai (1858–1922)
+
+- Kamini Roy, a poet, feminist, and the first woman in India to get a university degree, passed away in 1933.
+
+- Sarala Devi Chaudhurani, the first Indian woman to create a national women's organization, established the Bharat Stree Mahamandal.
+
+- Early Bengal social reformer Saroj Nalini Dutt (1887–1925) was an early founder of educated women's institutes.
+
+- Durgabai Deshmukh, known as Durgabai Dinshaw, was a prominent activist for women's liberation and the founder of Andhra Mahila Sabha, the first statewide organization in the south Indian state of Andhra Pradesh for women's issues.
+
+- Barnita Bagchi Is an accomplished researcher and sociologist whose areas of expertise include women's education.
+
+- Jasodhara Bagchi (1937–2015), who founded the School of Women's Studies at Jadavpur University, was the first female professor of gender studies in India.
+
+- Rita Banerji — a feminist author and activist, has founded an online worldwide lobbying campaign known as The 50 Million Missing Campaign, aimed at educating people about the gendercide in India (female infanticide).
+
+- Prem Chowdhry, a social scientist, feminist, Senior Academic Fellow, and opponent of arranged marriage violence, now serves as an Associate Professor in the Faculty of Behavioral Sciences at McGill University. She is a Center for Women Studies Life Member. She is well-known for her work in gender studies, with particular focus on Haryana state in India, as well as on the political economics and social history of Haryana state.
+
+- Mira Datta Gupta, a feminist activist, co-founded the All India Women's Conference.
+
+- Meghna Pant—a popular novelist who believes in advocating for feminist views via her writing and projects. Padma Gole—a well-known poet who consistently depicts the life of Indian middle-class women.
+
+- Devaki Jain, a feminist economist who is the founder of the Institute of Social Studies Trust.
+</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1007,7 +1185,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eCQ-yA-02p"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.85882352939999995" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="tst-U0-Qk9" secondAttribute="bottom" id="XIH-5z-SJr"/>
                             <constraint firstItem="tst-U0-Qk9" firstAttribute="trailing" secondItem="eCQ-yA-02p" secondAttribute="trailing" id="ayh-iI-SGd"/>
@@ -1041,14 +1219,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="K3V-C0-FRN"/>
         <segue reference="KEq-Iq-Uga"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2021-07-19 at 10.19.11 AM" width="1388" height="966"/>
         <image name="background " width="472" height="842"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
