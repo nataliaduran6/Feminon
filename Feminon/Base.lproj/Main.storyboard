@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Feminon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background " translatesAutoresizingMaskIntoConstraints="NO" id="ZM0-jk-gbY">
@@ -86,7 +86,7 @@
             <objects>
                 <viewController id="g3V-v7-obK" customClass="secondViewController" customModule="Feminon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e5m-jF-WNY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I13-yF-vKf">
@@ -143,7 +143,7 @@
             <objects>
                 <viewController id="fnq-I4-rrV" customClass="QuizViewController" customModule="Feminon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nxD-Cu-z50">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feminism Quiz ! " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVM-A1-vhY">
@@ -222,7 +222,7 @@
             <objects>
                 <viewController id="zWP-Eo-N7p" customClass="Quiz2ViewController" customModule="Feminon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fp4-CC-3AR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feminism Quiz " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NVY-65-2dn">
@@ -302,7 +302,7 @@
             <objects>
                 <viewController id="xwP-Tg-f9P" customClass="Quiz3ViewController" customModule="Feminon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kun-xl-S7q">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feminism Quiz !" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EXd-CW-CTN">
@@ -372,11 +372,11 @@
             <objects>
                 <viewController id="4Fd-2I-aTw" customClass="seventhViewController" customModule="Feminon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ey3-qs-pAj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ePc-zJ-5St">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="322" translatesAutoresizingMaskIntoConstraints="NO" id="vu3-8N-Rct">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="2209"/>
@@ -389,7 +389,7 @@
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNZ-vF-BcE">
                                                 <rect key="frame" x="0.0" y="342.5" width="414" height="1866.5"/>
-                                                <mutableString key="text">                       Who was Katherine Johnson ? 
+                                                <string key="text">                       Who was Katherine Johnson ? 
 
 - Starting from a young age , Katherine  loved to count and basically anything dealing with numbers . For example , at times she would even count the number of steps it took it to get to her church . She also loved to learn new things ( especially math related items ) which led her to start high school at the early age of 10 . By age 15 , she had already started college , and spent her time taking classes to prepare her to be a mathematician . She learned to solve very big problems through the beautiful field of math , quickly falling in love with it . She graduated with the best and highest honors in 1937 and accepted a position educating at a black public school in Virginia.
 
@@ -413,7 +413,7 @@
 - Growing up , boys and girls are put into very fixed binary roles and are only encouraged to gravitate towards subjects that are “fitting” or “acceptable” for their gender . Boys are taught to take risks , be competitive , play with cars , and be a part of the STEM field . Girls are taught to be perfect , sit pretty ,  play with dolls , and be stay at home moms , or join a humanities field . As a result , no one pushes our girls to pursue careers in STEM , rather they are constantly being told that they aren’t fit for their field . 
 
 - A lot of girls steer away from stem classes , not because they aren’t capable of doing it , but because it is intimidating being in a group full of men in which you constantly have to prove yourself smart enough. For example , if a girl runs into an issue , men would be like “ oh it’s because you’re a girl ,and you’re not smart enough for this  field,” but  if a guy does the same thing , no one would question his abilities or smartness , so that itself is super discouraging . Additionally, not only do women have the pressure of doing good in the class itself , but they also have the constant fear of falling into the false stereotype that “STEM isn’t for women.” 
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -452,11 +452,11 @@
             <objects>
                 <viewController id="AHq-3M-nVw" customClass="ninthViewController" customModule="Feminon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iPu-Kg-ue1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nin-0r-rl0">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="327" translatesAutoresizingMaskIntoConstraints="NO" id="jKR-gj-Vcv">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
@@ -469,11 +469,11 @@
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJb-qS-ese">
                                                 <rect key="frame" x="0.0" y="347.5" width="414" height="852.5"/>
-                                                <mutableString key="text">Abigail Adams, former first lady of the United States, lived from 1744 to 1818. Adams was an advocate for women’s education. As a child she enjoyed reading and studied Shakespeare, but did not receive proper education because it was uncommon for women at the time. Even with her lack of formal education she self educated herself with books from her family library. Abigail was an early supporter of women’s rights, famously quoted saying “Do not put such unlimited power into the hands of the husbands. Remember all men would be tyrants if they could.” She believed women’s education was a vital part of our democracy and allied with Judith Sargent Murray to expand women’s education. Although she did believe this for the benefit of sons as opposed to women’s benefit, it did help the women’s movement for education. In 1778 she wrote to her husband, John Adams, “you need not be told how much female education is neglected, nor how fashionable it has been to ridicule female learning.”
+                                                <string key="text">Abigail Adams, former first lady of the United States, lived from 1744 to 1818. Adams was an advocate for women’s education. As a child she enjoyed reading and studied Shakespeare, but did not receive proper education because it was uncommon for women at the time. Even with her lack of formal education she self educated herself with books from her family library. Abigail was an early supporter of women’s rights, famously quoted saying “Do not put such unlimited power into the hands of the husbands. Remember all men would be tyrants if they could.” She believed women’s education was a vital part of our democracy and allied with Judith Sargent Murray to expand women’s education. Although she did believe this for the benefit of sons as opposed to women’s benefit, it did help the women’s movement for education. In 1778 she wrote to her husband, John Adams, “you need not be told how much female education is neglected, nor how fashionable it has been to ridicule female learning.”
 
 
 Abigail Adams is only one part of the women’s fight for education. Other activists, such as Margaret Fuller, pushed boundaries and defied limitations. She was the first woman to be accepted into Harvard University, she was a journalist and a teacher, and she led many discussions for women. Fuller held seminars in Boston from 1839 to 1844 regarding women and higher education. The push for women in higher education is also an important part of the feminist movement. By 1880 one third of students in higher education were women. The increase of women in higher education helped solve an issue of labor shortages for teachers, at a time where public schools were increasing across the country. Outside of knowledge women also benefited by access to higher education by having access to safer jobs, such as teaching. It also lengthened the period between girlhood and marriage, ultamaily affecting social norms regarding marriage to this day. 
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -512,11 +512,11 @@ Abigail Adams is only one part of the women’s fight for education. Other activ
             <objects>
                 <viewController id="NYw-aF-qRA" customClass="tenthViewController" customModule="Feminon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o5z-G3-Fup">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vKO-rd-rJj">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="326" translatesAutoresizingMaskIntoConstraints="NO" id="tlf-Ld-alj">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1178.5"/>
@@ -529,7 +529,7 @@ Abigail Adams is only one part of the women’s fight for education. Other activ
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKK-Ea-d2e">
                                                 <rect key="frame" x="0.0" y="346.5" width="414" height="832"/>
-                                                <mutableString key="text">                                 Frida Kahlo:
+                                                <string key="text">                                 Frida Kahlo:
 
 Frida Kahlo, in full Frida Kahlo de Rivera, (born July 6, 1907, Coyoacán, Mexico—died July 13, 1954, Coyoacán), was a  Mexican painter best known for her uncompromising and brilliantly coloured self-portraits that deal with such themes as identity, the human body, and death.
 
@@ -543,7 +543,7 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
 
 
 
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -582,11 +582,11 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
             <objects>
                 <viewController id="vmJ-Co-PR8" customClass="eighthViewController" customModule="Feminon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xh6-3a-ZDf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2XJ-q3-Hyu">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="327" translatesAutoresizingMaskIntoConstraints="NO" id="CJ8-Mi-ZFQ">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1463.5"/>
@@ -599,7 +599,7 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xss-Ek-bYf">
                                                 <rect key="frame" x="0.0" y="347.5" width="414" height="1116"/>
-                                                <mutableString key="text">                    Who is Ruth Bader Ginsburg  ? 
+                                                <string key="text">                    Who is Ruth Bader Ginsburg  ? 
 
 - After graduating from Cornell University in 1954 with the best grades and distinctions in government, Ginsburg went to Harvard Law School and Columbia Law School where she graduated at the head of her class. Regardless of these astounding scholarly certifications, Ginsburg experienced issues getting a new line of work in the male-dominated field .
 
@@ -621,7 +621,7 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
 - As a moderate-liberal Supreme Court justice , Ginsburg was a solid voice for sex equity, the rights of laborers, and the partition of chruch and state.
 
 - She wrote the majority opinions in many important cases, including the 1996 ruling that the male-only admissions policy of the state-funded Virginia Military Institute was unconstitutional.
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -660,7 +660,7 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
             <objects>
                 <viewController id="eWx-Yh-nF7" customClass="thirdViewController" customModule="Feminon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zvz-XC-TIZ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feminists included in..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hb8-gt-inH">
@@ -717,11 +717,11 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
             <objects>
                 <viewController id="zve-UK-UjA" customClass="fourthViewController" customModule="Feminon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d60-8C-tyv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pvu-tC-wyH">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="315" translatesAutoresizingMaskIntoConstraints="NO" id="BOY-93-fPj">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1127"/>
@@ -734,7 +734,7 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4Q-hM-9bp">
                                                 <rect key="frame" x="0.0" y="335.5" width="414" height="791.5"/>
-                                                <mutableString key="text">- Feminism is for equal rights and opportunity for men and women.
+                                                <string key="text">- Feminism is for equal rights and opportunity for men and women.
 
 - Women's experiences, identities, expertise, and talents are respected, while all women are given the resources and encouragement to realize their full rights.
 
@@ -761,7 +761,7 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
 6. That We're Just Reinforcing Gender
 
 7. That It's Just Another Word For "Complaining All The Time"
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -804,11 +804,11 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
             <objects>
                 <viewController id="Jbs-hs-Ww6" customClass="fifthViewController" customModule="Feminon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XsT-XT-f4f">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bci-DP-4MK">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="307" translatesAutoresizingMaskIntoConstraints="NO" id="AqQ-Af-L6h">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1524.5"/>
@@ -821,7 +821,7 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHx-MB-der">
                                                 <rect key="frame" x="0.0" y="327.5" width="414" height="1197"/>
-                                                <mutableString key="text">- Some of the earliest forms of feminism were in Ancient Greece and Ancient Rome. In Ancient Greece Plato advocated that women possess “natural capacities” equal to men for governing and defending ancient Greece. Women of ancient Rome staged a protest over the Oppian Law, a law that restricted women’s access to gold and other goods, and had the law repealed. 
+                                                <string key="text">- Some of the earliest forms of feminism were in Ancient Greece and Ancient Rome. In Ancient Greece Plato advocated that women possess “natural capacities” equal to men for governing and defending ancient Greece. Women of ancient Rome staged a protest over the Oppian Law, a law that restricted women’s access to gold and other goods, and had the law repealed. 
 
 
 - Much later In the 15th century, Christine de Pizan, author of The Book of the City of Ladies, protested misogyny and the role of women in the Middle Ages. During the Enlightenment, Margaret Cavendish, the Duchess of Newcastle-upon-Tyne, and Mary Wollstonecraft, argued for equality for women. Abigail Adams saw access to education, property and the ballot as critical to women’s equality. 
@@ -832,7 +832,7 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
 
 - The second wave of feminism began when women sought more participation in the workforce and equal pay. “The Equal Pay Act of 1963 was among the first efforts to confront this still-relevant issue.” (History.com). Betty Friedan pioneered the idea that women were still pushed into roles like child care and homemaking. Gloria Steinem and Bella Abzug joined Friedan, forming the National Women's Political Caucus. They also fought for the Equal Rights amendment, the ERA was passed in congress but not ratified by enough states to become law. Roe v. Wade was decided during that time period and was a big win for feminists. Third wave feminism (NOW !!) expands the fight for equality to women of color, lgbtq+ women, immigrants, and religious minorities. This current wave of feminism contines to fight for issues such as rape culture and workpalce misogyny. The #MeToo movement is included in the current wave of feminism.
 
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -871,7 +871,7 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
             <objects>
                 <viewController id="5bK-BS-7Go" customClass="sixthViewController" customModule="Feminon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bgV-ab-hBq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feminism across the globe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8f-W1-raY">
@@ -928,14 +928,14 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
             <objects>
                 <viewController id="UF6-MW-U13" customClass="eleventhViewController" customModule="Feminon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bgh-WP-QAd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8LR-rN-l02">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="326" translatesAutoresizingMaskIntoConstraints="NO" id="grS-zx-sZT">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="894.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1178.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mexico" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPP-YN-tuY">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
@@ -944,8 +944,16 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TgR-U5-Gt2">
-                                                <rect key="frame" x="0.0" y="346.5" width="414" height="548"/>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Label snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbj Label snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjvvLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjvvvLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnck</string>
+                                                <rect key="frame" x="0.0" y="346.5" width="414" height="832"/>
+                                                <mutableString key="text">-In the 1970s, the women's movement in Mexico was greatly shown through consciousness-raising groups including mostly middle-class women members who zeroed in on connecting their own lives and political problems ,mainly those tied with sexuality. With high demand and interest, feminism increased in popular and began to joined the feminist demands of the 1970s with the demands of low-income women. In 1976, The national front for women's rights and liberation was created; it was the very first organization to unify feminist groups with labor unions, gay organizations, and leftist political groups. Although this association was significant in building spans between women's activist groups  and other social developments and political associations, its continuation additionally involved a few expenses.The new job market's greater employment opportunities for women, especially women who are younger , might change relations between the sexes and between the generations, making significant cultural changes.
+
+
+-Traditionally , women are expected to be in the fixed roles of being the emotional caregiver , taking care of the kids , the house , and domestic unpaid labor. On the other hand , men are in charge of financially providing for the family. Often times , women in these positions , especially in third world countries are exploited economically and physically . 
+
+
+
+-Chandra Mohanty states that Western feminist dischssion  has created a “ ... composite, singular ‘third world woman,’” who is a “powerless” victim of male dominance and patriarchal oppression . Urban feminist analysis in Mexico has given rise to a hegemony that has often defined indigenous feminism as the “other”: exotic, strangely rooted in “culture” and powerless if not nonexistent.
+</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -977,18 +985,18 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4vQ-CV-rQo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2908.6956521739135" y="1764.5089285714284"/>
+            <point key="canvasLocation" x="2951" y="1765"/>
         </scene>
         <!--Twelfth View Controller-->
         <scene sceneID="vYn-co-sbC">
             <objects>
                 <viewController id="Vbz-b7-y1H" customClass="twelfthViewController" customModule="Feminon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pFk-Oi-zB8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hF9-NK-bWT">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="326" translatesAutoresizingMaskIntoConstraints="NO" id="YwC-oZ-iSp">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1604.5"/>
@@ -1001,13 +1009,13 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mDb-ls-MOH">
                                                 <rect key="frame" x="0.0" y="346.5" width="414" height="1258"/>
-                                                <mutableString key="text">- Colombia has now made important strides in gender equality over the past two decades. It rose to a ranking of 22nd out of 153 countries in the World Economic Forum’s 2020 Global Gender Gap Index. In particular, Colombia has adopted a robust normative system that protects women’s rights, and legislation requiring that women candidates comprise at least 30% of party electoral lists, for higher representation of women in public institutions. In March 2013, the Colombian government approved a National Policy on Gender Equality (CONPES 161) that aims to co-ordinate efforts across the whole-of-government to guarantee women’s equality and non-discrimination. In 2010, Colombia became the first country formally to acknowledge the economic contribution of unpaid care work with the passage of a law (Law 1413 of 2010) mandating time-use surveys to account for the care economy and women’s invisible contribution to national accounts (OECD, 2017[3]). The National Development Plan 2018-22 includes an entire chapter on women’s rights based on three dimensions: the economic, the political and the dimension regarding physical integrity, which includes violence against women. 
+                                                <string key="text">- Colombia has now made important strides in gender equality over the past two decades. It rose to a ranking of 22nd out of 153 countries in the World Economic Forum’s 2020 Global Gender Gap Index. In particular, Colombia has adopted a robust normative system that protects women’s rights, and legislation requiring that women candidates comprise at least 30% of party electoral lists, for higher representation of women in public institutions. In March 2013, the Colombian government approved a National Policy on Gender Equality (CONPES 161) that aims to co-ordinate efforts across the whole-of-government to guarantee women’s equality and non-discrimination. In 2010, Colombia became the first country formally to acknowledge the economic contribution of unpaid care work with the passage of a law (Law 1413 of 2010) mandating time-use surveys to account for the care economy and women’s invisible contribution to national accounts (OECD, 2017[3]). The National Development Plan 2018-22 includes an entire chapter on women’s rights based on three dimensions: the economic, the political and the dimension regarding physical integrity, which includes violence against women. 
 
 - Movements: The start of the movement of Estamos Listas, or “We’re Ready” in English, began with a group of five women who were fed up with being treated as second-class citizens in the city’s political hierarchy. Around 60 women first gathered in what has become Estamos Listas’ headquarters in an old Spanish-style home, cheerfully painted yellow and draped in pink and purple banners, in the center of downtown Medellín. They decided to recruit in an unconventional way and created circles of trust where each woman took responsibility for recruiting five other women to join the cause. The new women then brought in five more women, and thus, the movement grew. It became the first women’s political movement to run for city council in Medellín. Estamos Listas began as a social movement in 2016, after Colombia voted against a proposed peace referendum to end half a century of civil war. Decades of bloody violence in Colombia have forced women and girls to endure systematic murder, displacement, harassment, and rape. The burden of the conflict has fallen heavily on women: according to U.N. data, Colombia has the 10th highest femicide rate in the world. Estamos Listas’ platform aims to change this by addressing issues of violence, femicide, poverty, and other hardships facing women in Colombia.
 
 
 - Despite these achievements, Colombia still faces challenges on the path to gender equality and the social and economic empowerment of women and girls. Advances are needed in the effective implementation, enforcement and evaluation of relevant gender equality policies, laws and government programmes, particularly at the local level. 
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1046,14 +1054,14 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
             <objects>
                 <viewController id="xmH-Zx-ezi" customClass="thirteenthViewController" customModule="Feminon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="49u-cU-Yvg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="np2-ld-7o8">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="327" translatesAutoresizingMaskIntoConstraints="NO" id="e8h-ka-AiG">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="895.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2052"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dominican Republic" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgu-dF-Hti">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
@@ -1062,8 +1070,18 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6H-1i-CNc">
-                                                <rect key="frame" x="0.0" y="347.5" width="414" height="548"/>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Label snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbj Label snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjvvLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnckn cncwnfjkr  hbjrnfjenrjnfjcrnbjvvvLabel snnnknd dbdnn dndcdn dnknkc dnkdkn dnkdkc ndb cknkdn c jncknnck</string>
+                                                <rect key="frame" x="0.0" y="347.5" width="414" height="1704.5"/>
+                                                <mutableString key="text">Current Issues- 
+(Trigger Warning - Domestic Violence, Sexual Harassment, Child Sex Trafficing)
+
+In the Dominican Republic, women have equal constitutional rights, but are still subjected to the cultural norms of “machista tradition”. They are expected to be submissive housewives, whose sole role is child care and housework. Culturally the women of dominican republic are not allowed to work, but were still forced into the workforce in the 1990’s because of the cripilling economy. Even with the increased women’s labor, men in Dominican Republic have misconceived notions about why more women have jobs. Instead of believing that they want to support their families, many believe that women only want more money for frivolous purposes. Even with increasing women’s labor, many women are still forced to be financially reliant on their husbands which leads to power imbalances and violence. Domestic violence is a large issue for the women in Dominican Republic. In 2013 Dominican Republic had the 3rd highest rate of femicide, that year one woman was killed every two days. Femicide is the violent, deliberate murder of women.  In Dominican Republic it is still a common practice to hit women in the home, that coupled with the lack of police action has created a terrible environment for women. In 2010 there were nearly 10,000 reported cases of violence, and only 66 were convicted. The Dominican Republic is also not only dangerous for women but young girls as well. In Dominican Republic, child sex trafficing has increased and it had become a large destination for child sex tourism. New laws are attempting to prevent cases of child sex trafficing but without removing police biases about women, it is likley not much will change for these young girls.
+
+
+Past feminists- 
+(Trigger Warning - Gun Violence and Sexual Harassment)
+
+The Mirabal sisters, also known as Las Mariposas, Dedé, María Teresa, Patria, and Minerva were born in the Dominican Republic. They lived during the Trujillo era, which lasted from 1930 to 1961. Rafael Trujillo used his military and secret police to terrorize his citizens and protect his power. He had taken over the economy and by the time of his death he had controlled “nearly 80 percent of the country’s industrial production”. Minerva was made aware about these injustices when she was in college. She attended school in Santo Domingo, the capital city, where she had caught Trujillo’s eye and became victim to his advances. Because of this Trujillo invited her and her family to a party, where she would not be able to avoid him. “We were worried the dictator might offer her a drink,” Dedé wrote, “since rumors were circulating that it might contain a type of drug that would cause women to pass out in his arms.” At the party she made it clear that she did not support his politics, which was a dangerous statement to make at the time let alone to Trujillo himself. Trujillo had threatened to detain Minerva and her father unless Minerva returned home with him, again she refused but was freed anyway. Minerva soon after became a leader in the resistance against Trujillo, her sisters Patria and María Teresa eventually joining her and their husbands joined as well. Minerva was an activist and organizer, which ultimately got her, as well as her sisters and their husbands, arrested by Trujillo’s forces. Eventually female political prisoners were released to help Trujillo gain popularity. November 25, 1960, María Teresa, Patria, and Minerva went to visit their husband in prison when they were kidnapped at gunpoint, by Trujillo’s forces, and killed in a staged car crash. The death of Las Mariposas turned them into martyrs of the movement and strengthened the fight against Trujillo.  November 25th is now the International Day for the Elimination of Violence Against Women, designated by the United Nations in honor of their death.
+</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1102,11 +1120,11 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
             <objects>
                 <viewController id="GM9-Dt-aHy" customClass="fourteenthViewController" customModule="Feminon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E0B-sV-kdm">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tst-U0-Qk9">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="322" translatesAutoresizingMaskIntoConstraints="NO" id="0or-V4-RXA">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="2858.5"/>
@@ -1119,7 +1137,7 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7GG-kP-xqO">
                                                 <rect key="frame" x="0.0" y="342.5" width="414" height="2516"/>
-                                                <mutableString key="text">- A significant segment of Indian women advocate for greater female rights. In the context of India, it is the pursuit of women's rights. The right to labor for equal pay, the right to equal access to health and education, and equal political rights are just some of the things feminists in India strive for. Additionally, Indian feminists have worked to combat cultural-specific problems such as outdated inheritance rules within India's patriarchal society.
+                                                <string key="text">- A significant segment of Indian women advocate for greater female rights. In the context of India, it is the pursuit of women's rights. The right to labor for equal pay, the right to equal access to health and education, and equal political rights are just some of the things feminists in India strive for. Additionally, Indian feminists have worked to combat cultural-specific problems such as outdated inheritance rules within India's patriarchal society.
 
 
 - The history of feminism in India can be separated into three distinct phases: the first of which, which occurred in the mid-19th century, began when reformists began speaking in favor of women's rights by implementing reforms in education, customs involving women, and lastly, following Indian independence, which focused on issues that affect women following marriage, in the workplace, and equal political representation.
@@ -1165,7 +1183,7 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
 - Meghna Pant—a popular novelist who believes in advocating for feminist views via her writing and projects. Padma Gole—a well-known poet who consistently depicts the life of Indian middle-class women.
 
 - Devaki Jain, a feminist economist who is the founder of the Institute of Social Studies Trust.
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1219,7 +1237,7 @@ To this day, over half a century, Frida Kahlo’s artwork is admired for her bol
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="KEq-Iq-Uga"/>
+        <segue reference="vz7-TZ-Vo0"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2021-07-19 at 10.19.11 AM" width="1388" height="966"/>
